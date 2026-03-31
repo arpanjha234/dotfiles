@@ -1,0 +1,104 @@
+{
+    // ---------- Appearance ----------
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredDarkColorTheme": "Terafox",
+    "window.autoDetectColorScheme": true,
+    "window.title": "${rootName}",
+    // ---------- Window / UI ----------
+    "window.menuStyle": "custom",
+    "window.menuBarVisibility": "toggle",
+    "window.customMenuBarAltFocus": false,
+    "window.enableMenuBarMnemonics": false,
+    "window.titleBarStyle": "custom",
+    "window.customTitleBarVisibility": "auto",
+    "window.dialogStyle": "custom",
+    "workbench.activityBar.location": "top",
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    // ---------- Explorer ----------
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": true,
+    "explorer.confirmDelete": false,
+    "workbench.tree.indent": 12,
+    // ---------- Editor ----------
+    "editor.padding.top": 20,
+    "editor.padding.bottom": 12,
+    "editor.smoothScrolling": true,
+    "editor.inertialScroll": true,
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.cursorBlinking": "smooth",
+    "editor.scrollbar.horizontalScrollbarSize": 8,
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.formatOnPaste": true,
+    // ---------- Files ----------
+    "files.autoSave": "onFocusChange",
+    "files.enableTrash": true,
+    // ---------- Search ----------
+    "search.exclude": {
+        "**/*.snap": true,
+        "**/*.svg": true,
+        "**/.git": true,
+        "**/.github": false,
+        "**/.nuxt": true,
+        "**/.output": true,
+        "**/.pnpm": true,
+        "**/.vscode": true,
+        "**/.yarn": true,
+        "**/assets": true,
+        "**/bower_components": true,
+        "**/dist/**": true,
+        "**/logs": true,
+        "**/node_modules": true,
+        "**/out/**": true,
+        "**/package-lock.json": true,
+        "**/pnpm-lock.yaml": true,
+        "**/public": true,
+        "**/temp": true,
+        "**/yarn.lock": true,
+        "**/CHANGELOG*": true,
+        "**/LICENSE*": true
+    },
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/dist/**": true
+    },
+    // ---------- Scrolling ----------
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    // ---------- Terminal ----------
+    "terminal.explorerKind": "both",
+    "terminal.external.linuxExec": "ghostty",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorStyleInactive": "underline",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.ignoreBracketedPasteMode": true,
+    "terminal.integrated.suggest.enabled": true,
+    "terminal.integrated.tabs.description": "${task}${separator}${cwdFolder}",
+    // ---------- Git ----------
+    "git.decorations.enabled": false,
+    // ---------- Extensions ----------
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "svelte.enable-ts-plugin": true,
+    // ---------- Security ----------
+    "security.workspace.trust.banner": "always",
+    "security.workspace.trust.startupPrompt": "always",
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    // ---------- System ----------
+    "http.systemCertificatesNode": true,
+    // ---------- Telemetry ----------
+    "telemetry.telemetryLevel": "off",
+    "telemetry.feedback.enabled": false,
+    // ---------- Misc ----------
+    "interactiveWindow.executeWithShiftEnter": true,
+    "chat.commandCenter.enabled": false
+}
